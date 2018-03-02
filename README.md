@@ -54,3 +54,4 @@ ng serve -o
   - [Salma Ghoneim](https://github.com/SalmaGhoneim)
 
 ## About
+This repository was created to finish the tutorial task for the SE course's sprint 1. It contains the implementation of a simple mini ebay website. The site has a dashboard, a store, and a cart. Users can add products from the store to the cart and checkout. The purpose of this project was to familiarize the tutorial with the MEAN stack technology. The server folder contains the server implemented using node js, express, and MongoDB. The client folder contains the front-end, which was created using angular js and the nebular library.
