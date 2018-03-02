@@ -142,6 +142,8 @@ export class CartComponent implements OnInit {
       this.cartService.removeProduct(this.cart, event.data)
       event.confirm.resolve();
     }
+    else
+      event.confirm.reject();
   }
 
   checkout(): void {
